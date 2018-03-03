@@ -2,7 +2,7 @@
 This app serves as a template to build a beautiful and catchy app UI appearance conforming to material design guidelines
 
 # Screenshots
-<img src="https://github.com/ajibadeseun/ShoppingApp/blob/master/Screenshot_20180303-145427.png" width="100" height="100"/>
+<img src="https://github.com/ajibadeseun/ShoppingApp/blob/master/Screenshot_20180303-145427.png" width="400" height="700"/>
 
 
 #Gradle
