@@ -2,7 +2,7 @@
 This app serves as a template to build a beautiful and catchy app UI appearance conforming to material design guidelines
 
 # Screenshots
-![Screenshot](https://raw.github.com/{ajibadeseun}/{ShoppingApp}/{master}/{Screenshot_20180303-145427.png})
+![Screenshot](https://github.com/ajibadeseun/ShoppingApp/blob/master/Screenshot_20180303-145427.png)
 
 #Gradle
 The gradle.build(Module:app) file must like the following:
