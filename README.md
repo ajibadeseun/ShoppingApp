@@ -4,11 +4,12 @@ This app serves as a template to build a beautiful and catchy app UI appearance 
 # Screenshots
 ![Screenshot](https://github.com/ajibadeseun/ShoppingApp/blob/master/Screenshot_20180303-145427.png)
 
+
 #Gradle
+
 The gradle.build(Module:app) file must like the following:
 
 apply plugin: 'com.android.application'
-
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -18,8 +19,7 @@ android {
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
-
-        vectorDrawables.useSupportLibrary true
+vectorDrawables.useSupportLibrary true
     }
     buildTypes {
         release {
@@ -28,10 +28,8 @@ android {
         }
     }
 }
-
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support:cardview-v7:25.3.1'
     compile 'com.android.support:design:25.3.1'
@@ -39,6 +37,7 @@ dependencies {
     compile 'com.android.volley:volley:1.0.0'
     compile 'com.google.code.gson:gson:2.2.4'
 }
+
 #Acknowledgement
 
 ShoppingApp is licensed under the Apache License, Version 2.0 (the "License"),you may not use this file except in compliance with the License.You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
