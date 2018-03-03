@@ -10,7 +10,9 @@ This app serves as a template to build a beautiful and catchy app UI appearance 
 The gradle.build(Module:app) file must like the following:
 
 apply plugin: 'com.android.application'
+
 android {
+
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
@@ -19,7 +21,8 @@ android {
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
-vectorDrawables.useSupportLibrary true
+        vectorDrawables.useSupportLibrary true
+
     }
     buildTypes {
         release {
@@ -28,7 +31,9 @@ vectorDrawables.useSupportLibrary true
         }
     }
 }
+
 dependencies {
+
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support:cardview-v7:25.3.1'
